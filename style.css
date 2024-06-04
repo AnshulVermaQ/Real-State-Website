@@ -1,0 +1,126 @@
+body{
+  margin:0;
+  padding:0;
+  background-image:url(reaak.webp);
+  background-size: cover;
+  font-size:16px;
+  color:#222;
+  font-family:"Roboto" sans-serif;
+  font-weight: 300;
+}
+#login-box{
+position:relative;
+margin:9% auto;
+width:300px;
+height:400px;
+background-color:#fff;
+border-radius: 2px;
+box-shadow:0 2px 4px rgba(0,0,0,0.4);
+}
+.left{
+position:absolute;
+top: 0;
+left: 0;
+box-sizing: border-box;
+padding: 40px;
+width:300px;
+height:400px;
+}
+h1{
+margin: 0 0 20px 0;
+font-size: 28px
+}
+input[type="text"],
+input[type="password"]{
+display:block;
+box-sizing:border-box;
+margin-bottom: 20px;
+padding:6px;
+width:220px;
+height:38px;
+border:none;
+border-bottom:1px solid #aaa;
+font-size: 20px;
+font-weight:400;
+transition:0.2s ease;
+} 
+input[type="text"]:focus,
+input[type="psaaward"]:hover{
+border-bottom: 2px solid #16a085;
+color:#16a085;
+}
+input[type="submit"]{
+margin-top:28px;
+width:120px;
+height:32px;
+background-color:#16a085;
+border:none;
+border-radius:2px;
+color:#fff;
+font-weight:500;
+text-transform:uppercase;
+cursor:pointer;
+transition:0.2s ease;
+}
+input[type="submit"]:focus,
+input[type="submit"]:hover{
+     opacity: 0.8;
+     box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+}
+.or{
+position: absolute;
+top: 180px;
+left: 280px;
+width: 40px;
+height: 40px;
+background-color:#ddd;
+border-radius:50%;
+box-shadow:0 2px 4px rgba(0,0,0,0.4);
+line-height:40px;
+text-align: center;
+}
+.right{
+position: absolute;
+top: 0;
+right: 0;
+box-sizing: border-box;
+padding: 40px;
+width: 300px;
+height: 400px;
+background-image: url(../Stars.jpg);
+background-size: cover;
+background-position: center;
+border-radius: 0 2px 2px 0;
+ }
+.right .loginwith{
+display:block;
+margin-bottom:40px;
+font-size:28px;
+color:#fff;
+text-align:center;
+}
+button.btn{
+margin-bottom:20px;
+width:220px;
+height:36px;
+border:none;
+border-radius:2px;
+color:#fff;
+font-weight:500;
+cursor:pointer;
+transition: 0.2 ease;
+}
+
+button.btn:hover,
+button.btn:focus{
+  box-shadow:0 2px 4px rgba(0,0,0,0.4);
+}
+button.btn.facebook{
+background-color:#32508E;
+}
+button.btn.twitter{
+background-color:#55ACEE;
+}
+button.btn.google{
+background-color:#DD4839;
+}

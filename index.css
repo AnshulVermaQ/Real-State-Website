@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto+Slab:wght@700&family=Rubik+Doodle+Shadow&family=Rubik+Doodle+Triangles&family=Rubik+Lines&family=Rubik+Maps&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Rubik+Lines&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto+Slab:wght@700&family=Rubik+Doodle+Shadow&family=Rubik+Lines&family=Rubik+Maps&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Open+Sans&family=Roboto+Slab:wght@700&family=Rubik+Doodle+Shadow&family=Rubik+Doodle+Triangles&family=Rubik+Lines&family=Rubik+Maps&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Rubik+Doodle+Shadow&family=Rubik+Lines&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+  
+}
+h1{
+    color: black;
+    text-align: center;
+    margin-top: 10vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#nav{
+    height:80px;
+    width:100%;
+    position: relative;
+    padding: 20px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: right;
+    gap:90px;
+   
+}
+#nav img{
+    margin-right: 400px;
+}
+#nav a{
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    gap: 5px;
+    font-weight: 800;
+    text-decoration: overline;
+    justify-content: center;
+    text-decoration: underline;
+    margin-right: 30px;
+    display:inline-block;
+}
+#nav a:hover {
+    color:rgb(172, 166, 166)
+}
+
+#page1{
+    height:100vh;
+    width:100%;
+    background-color: #f7f7f7;
+    margin-top: 1vw;
+    position: relative;
+
+}
+#page1 video{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.over {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    width: 70%; /* Set the width to 50% */
+    margin-left: 100px;
+    margin-top: 50px;
+    
+}
+
+input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    width: 70%; /* Adjust the width of the input field */
+    border: 2px solid black;
+    background-color: rgb(255, 255, 255);
+}
+
+button {
+    padding: 8px 12px;
+    background-color: #1ff42d;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 8px;
+    border-radius: 10px ;
+
+}
+
+button:hover {
+    background-color: #29822d;
+}
+span{
+    font-family: 'Martian Mono', monospace;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 7, 7);
+}
+.phrase{
+    font-size: 15px;
+    top:80%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-weight: 800;
+
+}
+#Allcards{
+    height:40vh;
+    display:flex;
+    width:100%;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 10;
+   
+    position: relative;
+   
+}
+.cards{
+    width:30%;
+    height:80%;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-color: #104b13;
+    margin-top: 4px;
+    cursor: pointer;
+    border-radius: 10%;
+    
+    
+}
+.cards img{
+    width:100%;
+    height:100%;
+    transition: transform 0.6s ease;
+    
+}
+.cards img:hover{
+    transform: scale(1.1);
+}
+#Allcards1{
+    height:40vh;
+    display:flex;
+    width:100%;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 10;
+  
+    position: relative;
+  
+}
+.det{
+    font-weight: 700;
+}
+.cards a{
+    color: black;
+    text-decoration: none;
+}
+#nav img{
+    margin-left: 20px;
+}
+#projects{
+    height:35vh;
+    width:100%;
+    
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 10;
+
+}
+ .top{
+    font-size: 4vh;
+    height:5vh;
+    width:100%;
+  justify-content: center;
+    margin-top: 0px;
+    display: flex;
+    color: rgb(0, 0, 0);
+    font-family: 'Archivo Black', sans-serif;
+
+}
+#projects .cardd{
+    height:30vh;
+    width: 18%;
+    background-color: rgb(8, 68, 68);
+    margin-top: 20px;
+    border-radius: 30px;
+    overflow: hidden;
+
+}
+.view{
+   display: flex;
+    height:5vh;
+    width:100%;
+    justify-content: center;
+}
+.view a{
+    font-size: 15px;
+    border-radius: 10%;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 8px 12px;
+    cursor: pointer;
+   margin-left: 8px;
+   color: blue;
+}
+.view a:hover{
+    background-color: rgb(123, 174, 174);
+}
+.line{
+    border:2px solid rgb(166, 147, 147);
+}
+.cardd img{
+    width:100%;
+    height:100%;
+    transition: transform 0.6s ease;
+    display: block;
+    cursor: pointer;
+    border-radius: 10%;
+}
+.cardd img:hover{
+    transform: scale(1.1);
+}
+.top1{
+    font-size: 4vh;
+    height:5vh;
+    width:100%;
+  justify-content: center;
+    margin-top: 0px;
+    display: flex;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-family: 'Archivo Black', sans-serif;
+}
+#projects1{
+    height:35vh;
+    width:100%;
+    font-family: 'Archivo Black', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 10;
+
+}
+#projects1 .cardd1{
+    height:50vh;
+    width: 23%;
+    background-color: rgb(8, 68, 68);
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+#projects1 .cardd1 img{
+    width:100%;
+    height:100%;
+    display: block;
+    cursor: pointer;
+    transition: transform 0.7s ease;
+}
+.cardd1 img:hover{
+    transform: scale(1.1);
+}
+#selling{
+    height:45vh;
+    width:100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 10;
+    font-family: 'Archivo Black', sans-serif;
+
+}
+#selling .cad{
+    height:40vh;
+    width: 22%;
+    border:1px solid black;
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: rgb(199, 232, 236);
+    
+}
+#selling .cad img{
+    width:100%;
+    height:50%;
+    display: block;
+    cursor: pointer;
+    transition: transform 0.7s ease;
+} 
+.cad img:hover{
+    transform: scale(1.1);
+}
+#selling .cad a{
+    color: black;
+    text-decoration: none;
+    font-size: small;
+}
+.cad .det button{
+    background-color: aqua;
+}
+.overlay{
+    position: absolute;
+    top: 30%; /* Adjust as needed */
+    left: 50%; /* Adjust as needed */
+    font-size: 6vh; /* Adjust as needed */
+    font-weight: bold;
+    text-align: center;
+    color:rgb(4, 34, 60);
+    transform: translate(-50%, -50%);
+    font-family: 'Archivo Black', sans-serif;
+}
+.over{
+    position: absolute;
+    top: 40%; /* Adjust as needed */
+    left: 50%; /* Adjust as needed */
+    transform: translate(-50%, -50%);
+    font-size: 24px; /* Adjust as needed */
+    font-weight: bold;
+    font-family: 'Archivo Black', sans-serif;
+
+}
+.top2{
+    font-size: 3vh;
+    height:4vh;
+    width:100%;
+  justify-content: center;
+    display: flex;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-family: 'Archivo Black', sans-serif;
+}
+#services{
+    height:15vh;
+    width:100%;
+   
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 10;
+    
+}
+#services .service{
+    height:15vh;
+    width:23%;
+    background-color: #f7f7f7;
+}
+#services .service img{
+    height:100%;
+    width:100%;
+display: block;
+    cursor: pointer;
+    border:0.3px solid black;
+    border-radius: 10px;
+}
+#operate img{
+    width:100%;
+    height:70vh;
+}
+.top3{
+    font-size: 5vh;
+    height:5vh;
+    width:100%;
+  justify-content: center;
+    margin-top: 0px;
+    display: flex;
+    color: rgb(0, 0, 0);
+    font-family: 'Archivo Black', sans-serif;
+}
+.des{
+    align-items: center;
+    font-size: 25px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: 'archivo black', sans-serif;
+}
+#footer{
+    height:50vh;
+    width:100%;
+    background-color: #242d24;
+    display: flex;
+    justify-content: space-evenly;
+}
+#footer .f1{
+    padding-top:3%;
+    height:80%;
+    width:25%;
+    text-align:left;
+    
+}
+h3{
+    color: white;
+    font-weight: 700;
+    align-items: right;
+}
+p{
+    font-size: medium;
+    font-weight: 500;
+    color: rgb(196, 186, 186);
+    font-weight: 300;
+    font-family: 'Open Sens', sans-serif;
+}
+.foot{
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    text-align:left;
+}
+.foot li{
+    color: #242d24;
+}
+.foot a{
+    color: azure;
+    text-decoration: none;
+}
+.foot1 a{
+    color: azure;
+    font-size: small;
+    text-decoration: none;
+}
+.icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+
+  .icons li {
+    margin-right: 10px; /* Adjust the margin to set the gap between icons */
+  }
+
+  .icons a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+  }
+
+  .icons a:hover {
+    color:#f6f6f6;
+  }
+  h5{
+    background-color: #242d24;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: rgb(157, 149, 149);
+  }
+  #make{
+    height:50vh;
+    width:100%;
+  }
+  #make img{
+    height:100%;
+    width:100%;
+
+  }
+  #staff-Con{
+    height:60vh;
+    width: 100%;
+    background-color: #1ff42d;
+    display: flex;
+  }
+  .formm{
+    font-size: 2.8vh;
+    font-weight: 600;
+    margin-left: 650px;
+  }
